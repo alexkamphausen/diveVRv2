@@ -204,7 +204,7 @@ pointGeometry = new THREE.Geometry();
 				fragmentShader: document.getElementById( 'fragmentshader' ).textContent
 			});
 			object = new THREE.Points( geometry, material );
-			scene.add( object );
+			// scene.add( object );
 
 			var geo = new THREE.PlaneBufferGeometry(5,5,5);
       var mat = new THREE.MeshBasicMaterial({ color: 0xbfbfbf, side: THREE.DoubleSide,transparent: true, opacity: 2, depthWrite: false });
